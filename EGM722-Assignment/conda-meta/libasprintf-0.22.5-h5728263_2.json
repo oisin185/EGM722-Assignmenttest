@@ -1,0 +1,40 @@
+{
+  "build": "h5728263_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "C:\\Users\\oisin\\anaconda3\\pkgs\\libasprintf-0.22.5-h5728263_2",
+  "files": [
+    "Library/bin/asprintf-0.dll",
+    ".nonadmin"
+  ],
+  "fn": "libasprintf-0.22.5-h5728263_2.conda",
+  "license": "LGPL-2.1-or-later",
+  "link": {
+    "source": "C:\\Users\\oisin\\anaconda3\\pkgs\\libasprintf-0.22.5-h5728263_2",
+    "type": 1
+  },
+  "md5": "75a6982b9ff0a8db0f53303527b07af8",
+  "name": "libasprintf",
+  "package_tarball_full_path": "C:\\Users\\oisin\\anaconda3\\pkgs\\libasprintf-0.22.5-h5728263_2.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/asprintf-0.dll",
+        "path_type": "hardlink",
+        "sha256": "f2ef7908f9fac3b4ab53c3c3da162f7231fa9a42f3b6af2ca50f4acc2d6f9a60",
+        "sha256_in_prefix": "f2ef7908f9fac3b4ab53c3c3da162f7231fa9a42f3b6af2ca50f4acc2d6f9a60",
+        "size_in_bytes": 51200
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5722a4a260355c9233680a3424a977433f25826ca0a1c05af403d62b805681bc",
+  "size": 49778,
+  "subdir": "win-64",
+  "timestamp": 1712515968000,
+  "url": "https://conda.anaconda.org/conda-forge/win-64/libasprintf-0.22.5-h5728263_2.conda",
+  "version": "0.22.5"
+}

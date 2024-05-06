@@ -1,0 +1,58 @@
+{
+  "build": "h5728263_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "libasprintf 0.22.5 h5728263_2"
+  ],
+  "extracted_package_dir": "C:\\Users\\oisin\\anaconda3\\pkgs\\libasprintf-devel-0.22.5-h5728263_2",
+  "files": [
+    "Library/include/autosprintf.h",
+    "Library/lib/asprintf.dll.lib",
+    "Library/lib/asprintf.lib",
+    ".nonadmin"
+  ],
+  "fn": "libasprintf-devel-0.22.5-h5728263_2.conda",
+  "license": "LGPL-2.1-or-later",
+  "link": {
+    "source": "C:\\Users\\oisin\\anaconda3\\pkgs\\libasprintf-devel-0.22.5-h5728263_2",
+    "type": 1
+  },
+  "md5": "8377da2cc31200d7181d2e48d60e4c7b",
+  "name": "libasprintf-devel",
+  "package_tarball_full_path": "C:\\Users\\oisin\\anaconda3\\pkgs\\libasprintf-devel-0.22.5-h5728263_2.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/include/autosprintf.h",
+        "path_type": "hardlink",
+        "sha256": "b63993786da0e9435ee611e08bfc12800e32f47c9820f7be42cb75687d7ee541",
+        "sha256_in_prefix": "b63993786da0e9435ee611e08bfc12800e32f47c9820f7be42cb75687d7ee541",
+        "size_in_bytes": 2421
+      },
+      {
+        "_path": "Library/lib/asprintf.dll.lib",
+        "path_type": "hardlink",
+        "sha256": "a19545d6c54278ef51ea0e84dcab877fa4b3a0d8851c300453200caeb88a8c97",
+        "sha256_in_prefix": "a19545d6c54278ef51ea0e84dcab877fa4b3a0d8851c300453200caeb88a8c97",
+        "size_in_bytes": 5264
+      },
+      {
+        "_path": "Library/lib/asprintf.lib",
+        "path_type": "hardlink",
+        "sha256": "a19545d6c54278ef51ea0e84dcab877fa4b3a0d8851c300453200caeb88a8c97",
+        "sha256_in_prefix": "a19545d6c54278ef51ea0e84dcab877fa4b3a0d8851c300453200caeb88a8c97",
+        "size_in_bytes": 5264
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d5c711d9da4e35d29f4f2191664075c64cbf8cd481a35bf7ef3a527018eb0184",
+  "size": 36272,
+  "subdir": "win-64",
+  "timestamp": 1712516175000,
+  "url": "https://conda.anaconda.org/conda-forge/win-64/libasprintf-devel-0.22.5-h5728263_2.conda",
+  "version": "0.22.5"
+}

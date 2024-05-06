@@ -16,3 +16,7 @@ lgd = gpd.read_file(os.path.abspath('C:/Users/oisin/Documents/GitHub/EGM722-Assi
 belfast_busstops = gpd.read_file(os.path.abspath('C:/Users/oisin/Documents/GitHub/EGM722-Assignmenttest/BelfastBusstop/Belfast_Busstops.shp'))
 belfast_roads = gpd.read_file(os.path.abspath('C:/Users/oisin/Documents/GitHub/EGM722-Assignmenttest/BelfastRoads/Belfast_Roads.shp'))
 
+belfast_utm = ccrs.UTM(30) # setting the correct the Coordinate Reference System (CRS) for the map
+
+fig = plt.figure(figsize=(10, 10)) # The boundary of the map which will be created and setting the size of 10 inches by 10 inches
+axes = plt.axes(projection=belfast_utm) # Projecting the axes of the boundary into the correct CRS

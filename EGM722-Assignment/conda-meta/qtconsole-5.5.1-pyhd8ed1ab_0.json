@@ -1,0 +1,37 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "pyqt",
+    "python >=3.7",
+    "qtconsole-base >=5.5.1,<5.5.2.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\oisin\\anaconda3\\pkgs\\qtconsole-5.5.1-pyhd8ed1ab_0",
+  "files": [
+    ".nonadmin"
+  ],
+  "fn": "qtconsole-5.5.1-pyhd8ed1ab_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "C:\\Users\\oisin\\anaconda3\\pkgs\\qtconsole-5.5.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "eb44d4dc1e8c84287c4fb28518ffedd0",
+  "name": "qtconsole",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\oisin\\anaconda3\\pkgs\\qtconsole-5.5.1-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c102ef2919dc780086ee59cb1dd9823603bf6e6d394eace6ae53c84c97661e9d",
+  "size": 7300,
+  "subdir": "noarch",
+  "timestamp": 1700169130000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/qtconsole-5.5.1-pyhd8ed1ab_0.conda",
+  "version": "5.5.1"
+}

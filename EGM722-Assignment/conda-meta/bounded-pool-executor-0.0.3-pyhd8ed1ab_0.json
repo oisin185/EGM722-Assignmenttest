@@ -1,0 +1,105 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "C:\\Users\\oisin\\anaconda3\\pkgs\\bounded-pool-executor-0.0.3-pyhd8ed1ab_0",
+  "files": [
+    "Lib/site-packages/bounded_pool_executor-0.0.3.dist-info/INSTALLER",
+    "Lib/site-packages/bounded_pool_executor-0.0.3.dist-info/METADATA",
+    "Lib/site-packages/bounded_pool_executor-0.0.3.dist-info/RECORD",
+    "Lib/site-packages/bounded_pool_executor-0.0.3.dist-info/REQUESTED",
+    "Lib/site-packages/bounded_pool_executor-0.0.3.dist-info/WHEEL",
+    "Lib/site-packages/bounded_pool_executor-0.0.3.dist-info/direct_url.json",
+    "Lib/site-packages/bounded_pool_executor-0.0.3.dist-info/top_level.txt",
+    "Lib/site-packages/bounded_pool_executor/__init__.py",
+    ".nonadmin",
+    "Lib/site-packages/bounded_pool_executor/__pycache__/__init__.cpython-311.pyc"
+  ],
+  "fn": "bounded-pool-executor-0.0.3-pyhd8ed1ab_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\oisin\\anaconda3\\pkgs\\bounded-pool-executor-0.0.3-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "d8a39f2e6da4ba10ce7c4aba2c8a69d5",
+  "name": "bounded-pool-executor",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\oisin\\anaconda3\\pkgs\\bounded-pool-executor-0.0.3-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/bounded_pool_executor-0.0.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/bounded_pool_executor-0.0.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "089901dafae499b9d2d65b84a8a26239970fa367890994388fba4f4836e2d6e8",
+        "sha256_in_prefix": "089901dafae499b9d2d65b84a8a26239970fa367890994388fba4f4836e2d6e8",
+        "size_in_bytes": 2703
+      },
+      {
+        "_path": "site-packages/bounded_pool_executor-0.0.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "6ed028f861c862b0f5cb24092c3ce01e85923ed3f8a310a2088e8f9b96a75213",
+        "sha256_in_prefix": "6ed028f861c862b0f5cb24092c3ce01e85923ed3f8a310a2088e8f9b96a75213",
+        "size_in_bytes": 823
+      },
+      {
+        "_path": "site-packages/bounded_pool_executor-0.0.3.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/bounded_pool_executor-0.0.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "sha256_in_prefix": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/bounded_pool_executor-0.0.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "3270e0b056f1cf12e9c6a8c8eefd2826a4d0ab64387bcdfe5b5a5654e43719a6",
+        "sha256_in_prefix": "3270e0b056f1cf12e9c6a8c8eefd2826a4d0ab64387bcdfe5b5a5654e43719a6",
+        "size_in_bytes": 117
+      },
+      {
+        "_path": "site-packages/bounded_pool_executor-0.0.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "8d044d32425241730a352c5ad2dedf9f67fabe2b48dbe696491298d0f4b52c2c",
+        "sha256_in_prefix": "8d044d32425241730a352c5ad2dedf9f67fabe2b48dbe696491298d0f4b52c2c",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "site-packages/bounded_pool_executor/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b47f9f6fe367abfe5d62f2e8c154620eed953afcac5f43a73a28ad47b9d9e859",
+        "sha256_in_prefix": "b47f9f6fe367abfe5d62f2e8c154620eed953afcac5f43a73a28ad47b9d9e859",
+        "size_in_bytes": 951
+      },
+      {
+        "_path": "Lib/site-packages/bounded_pool_executor/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "967bce773b4715e14d98821db05ba23af3c2c166cb75f913542a342c15ed4300",
+  "size": 6996,
+  "subdir": "noarch",
+  "timestamp": 1635175240000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/bounded-pool-executor-0.0.3-pyhd8ed1ab_0.tar.bz2",
+  "version": "0.0.3"
+}

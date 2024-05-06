@@ -1,0 +1,187 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "matplotlib-base",
+    "python >=3.7"
+  ],
+  "extracted_package_dir": "C:\\Users\\oisin\\anaconda3\\pkgs\\matplotlib-scalebar-0.8.1-pyhd8ed1ab_0",
+  "files": [
+    "Lib/site-packages/matplotlib_scalebar-0.8.1.dist-info/INSTALLER",
+    "Lib/site-packages/matplotlib_scalebar-0.8.1.dist-info/LICENSE",
+    "Lib/site-packages/matplotlib_scalebar-0.8.1.dist-info/METADATA",
+    "Lib/site-packages/matplotlib_scalebar-0.8.1.dist-info/RECORD",
+    "Lib/site-packages/matplotlib_scalebar-0.8.1.dist-info/REQUESTED",
+    "Lib/site-packages/matplotlib_scalebar-0.8.1.dist-info/WHEEL",
+    "Lib/site-packages/matplotlib_scalebar-0.8.1.dist-info/direct_url.json",
+    "Lib/site-packages/matplotlib_scalebar-0.8.1.dist-info/top_level.txt",
+    "Lib/site-packages/matplotlib_scalebar-0.8.1.dist-info/zip-safe",
+    "Lib/site-packages/matplotlib_scalebar/__init__.py",
+    "Lib/site-packages/matplotlib_scalebar/_version.py",
+    "Lib/site-packages/matplotlib_scalebar/dimension.py",
+    "Lib/site-packages/matplotlib_scalebar/scalebar.py",
+    "Lib/site-packages/matplotlib_scalebar/test_dimension.py",
+    "Lib/site-packages/matplotlib_scalebar/test_scalebar.py",
+    ".nonadmin",
+    "Lib/site-packages/matplotlib_scalebar/__pycache__/__init__.cpython-311.pyc",
+    "Lib/site-packages/matplotlib_scalebar/__pycache__/_version.cpython-311.pyc",
+    "Lib/site-packages/matplotlib_scalebar/__pycache__/dimension.cpython-311.pyc",
+    "Lib/site-packages/matplotlib_scalebar/__pycache__/scalebar.cpython-311.pyc",
+    "Lib/site-packages/matplotlib_scalebar/__pycache__/test_dimension.cpython-311.pyc",
+    "Lib/site-packages/matplotlib_scalebar/__pycache__/test_scalebar.cpython-311.pyc"
+  ],
+  "fn": "matplotlib-scalebar-0.8.1-pyhd8ed1ab_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\oisin\\anaconda3\\pkgs\\matplotlib-scalebar-0.8.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "b2fd6b9626f10e3fb1793ad53d8ee5cf",
+  "name": "matplotlib-scalebar",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\oisin\\anaconda3\\pkgs\\matplotlib-scalebar-0.8.1-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/matplotlib_scalebar-0.8.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/matplotlib_scalebar-0.8.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "1b9f23f2a9f2cfb92ee09bd588c38c9417e037b29c6d263ca5a696feaca3f5e8",
+        "sha256_in_prefix": "1b9f23f2a9f2cfb92ee09bd588c38c9417e037b29c6d263ca5a696feaca3f5e8",
+        "size_in_bytes": 1299
+      },
+      {
+        "_path": "site-packages/matplotlib_scalebar-0.8.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "8fbdcf9570b278857a6fb4a187729fc048c86cd4035db209e54d4f0c6cb4cfc6",
+        "sha256_in_prefix": "8fbdcf9570b278857a6fb4a187729fc048c86cd4035db209e54d4f0c6cb4cfc6",
+        "size_in_bytes": 13975
+      },
+      {
+        "_path": "site-packages/matplotlib_scalebar-0.8.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "eda8d79c086f2ad6ea71b0fcc66ac9379dfc0d68faab57c17d82ec8f7f33f877",
+        "sha256_in_prefix": "eda8d79c086f2ad6ea71b0fcc66ac9379dfc0d68faab57c17d82ec8f7f33f877",
+        "size_in_bytes": 1776
+      },
+      {
+        "_path": "site-packages/matplotlib_scalebar-0.8.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/matplotlib_scalebar-0.8.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "cfd8f4c406bf26650a3299b3ef62b464600b48cfe7fb04159866e5797c765478",
+        "sha256_in_prefix": "cfd8f4c406bf26650a3299b3ef62b464600b48cfe7fb04159866e5797c765478",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/matplotlib_scalebar-0.8.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "7e5c22092ef538056ef3f0750714b63405290c996af2fc8c5abc41b07a485583",
+        "sha256_in_prefix": "7e5c22092ef538056ef3f0750714b63405290c996af2fc8c5abc41b07a485583",
+        "size_in_bytes": 115
+      },
+      {
+        "_path": "site-packages/matplotlib_scalebar-0.8.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "fb1dd9468a858de61f7f138ea92edfdd1bffd5b85d8684fb59344d0125c7e9a1",
+        "sha256_in_prefix": "fb1dd9468a858de61f7f138ea92edfdd1bffd5b85d8684fb59344d0125c7e9a1",
+        "size_in_bytes": 20
+      },
+      {
+        "_path": "site-packages/matplotlib_scalebar-0.8.1.dist-info/zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/matplotlib_scalebar/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b7d299769fc322fbfdd64c8095ba9f5e4ae4cbfeb7aa2718ba3bc4fa777cc653",
+        "sha256_in_prefix": "b7d299769fc322fbfdd64c8095ba9f5e4ae4cbfeb7aa2718ba3bc4fa777cc653",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/matplotlib_scalebar/_version.py",
+        "path_type": "hardlink",
+        "sha256": "5884b6c44cedfa6d721c912680f0b52a3b61f1a5615c89710089358dd67868c1",
+        "sha256_in_prefix": "5884b6c44cedfa6d721c912680f0b52a3b61f1a5615c89710089358dd67868c1",
+        "size_in_bytes": 471
+      },
+      {
+        "_path": "site-packages/matplotlib_scalebar/dimension.py",
+        "path_type": "hardlink",
+        "sha256": "b6447bd88253d3d7614a2f181ef6d0968c37a8deb752b9580ac2808225ce3a5c",
+        "sha256_in_prefix": "b6447bd88253d3d7614a2f181ef6d0968c37a8deb752b9580ac2808225ce3a5c",
+        "size_in_bytes": 4469
+      },
+      {
+        "_path": "site-packages/matplotlib_scalebar/scalebar.py",
+        "path_type": "hardlink",
+        "sha256": "1aeb6906c3fee6a26628db9e2565ddceb4a8590466137fd782743b5039034d85",
+        "sha256_in_prefix": "1aeb6906c3fee6a26628db9e2565ddceb4a8590466137fd782743b5039034d85",
+        "size_in_bytes": 24669
+      },
+      {
+        "_path": "site-packages/matplotlib_scalebar/test_dimension.py",
+        "path_type": "hardlink",
+        "sha256": "8b87a98f8048957d664b430c27c94ad9d149219eed288956777d6482d42ef923",
+        "sha256_in_prefix": "8b87a98f8048957d664b430c27c94ad9d149219eed288956777d6482d42ef923",
+        "size_in_bytes": 2475
+      },
+      {
+        "_path": "site-packages/matplotlib_scalebar/test_scalebar.py",
+        "path_type": "hardlink",
+        "sha256": "23754e3e79b33260cc0125d4c81fd19d0679bce53f7c29b75d979fe84c7fdab2",
+        "sha256_in_prefix": "23754e3e79b33260cc0125d4c81fd19d0679bce53f7c29b75d979fe84c7fdab2",
+        "size_in_bytes": 9530
+      },
+      {
+        "_path": "Lib/site-packages/matplotlib_scalebar/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/matplotlib_scalebar/__pycache__/_version.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/matplotlib_scalebar/__pycache__/dimension.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/matplotlib_scalebar/__pycache__/scalebar.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/matplotlib_scalebar/__pycache__/test_dimension.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/matplotlib_scalebar/__pycache__/test_scalebar.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "matplotlib-scalebar",
+  "sha256": "2fbf391c36a81d3331d4e85bc461a6f856a62429f308834bf5279c8c49fc2279",
+  "size": 19465,
+  "subdir": "noarch",
+  "timestamp": 1646998592000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/matplotlib-scalebar-0.8.1-pyhd8ed1ab_0.tar.bz2",
+  "version": "0.8.1"
+}

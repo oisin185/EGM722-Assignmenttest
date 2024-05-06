@@ -1,0 +1,105 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "C:\\Users\\oisin\\anaconda3\\pkgs\\pylint-venv-3.0.3-pyhd8ed1ab_0",
+  "files": [
+    "Lib/site-packages/pylint_venv-3.0.3.dist-info/INSTALLER",
+    "Lib/site-packages/pylint_venv-3.0.3.dist-info/LICENSE.txt",
+    "Lib/site-packages/pylint_venv-3.0.3.dist-info/METADATA",
+    "Lib/site-packages/pylint_venv-3.0.3.dist-info/RECORD",
+    "Lib/site-packages/pylint_venv-3.0.3.dist-info/REQUESTED",
+    "Lib/site-packages/pylint_venv-3.0.3.dist-info/WHEEL",
+    "Lib/site-packages/pylint_venv-3.0.3.dist-info/direct_url.json",
+    "Lib/site-packages/pylint_venv.py",
+    ".nonadmin",
+    "Lib/site-packages/__pycache__/pylint_venv.cpython-311.pyc"
+  ],
+  "fn": "pylint-venv-3.0.3-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\oisin\\anaconda3\\pkgs\\pylint-venv-3.0.3-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "3b2371e9f25ae623d15f38eb65e03b5c",
+  "name": "pylint-venv",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\oisin\\anaconda3\\pkgs\\pylint-venv-3.0.3-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pylint_venv-3.0.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pylint_venv-3.0.3.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "b6b087cae10c9386509b0590c190a5ef86075eca6626ecf6afc5254fc5fcc550",
+        "sha256_in_prefix": "b6b087cae10c9386509b0590c190a5ef86075eca6626ecf6afc5254fc5fcc550",
+        "size_in_bytes": 1116
+      },
+      {
+        "_path": "site-packages/pylint_venv-3.0.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "d1d9c4f5a2db46eeda3bb2974ed40d29aa308f0944b105caaaf115129cbe99e2",
+        "sha256_in_prefix": "d1d9c4f5a2db46eeda3bb2974ed40d29aa308f0944b105caaaf115129cbe99e2",
+        "size_in_bytes": 6138
+      },
+      {
+        "_path": "site-packages/pylint_venv-3.0.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "e0a1e0e2eafaadc751bcfd08cfdee432de50f0afb394d6293807faf528ed086c",
+        "sha256_in_prefix": "e0a1e0e2eafaadc751bcfd08cfdee432de50f0afb394d6293807faf528ed086c",
+        "size_in_bytes": 717
+      },
+      {
+        "_path": "site-packages/pylint_venv-3.0.3.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pylint_venv-3.0.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "7767ef8ce0fbb17b15cc2842a9fd13cb425b1ca05a2d8c036c6403c104e7279d",
+        "sha256_in_prefix": "7767ef8ce0fbb17b15cc2842a9fd13cb425b1ca05a2d8c036c6403c104e7279d",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "site-packages/pylint_venv-3.0.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "8f202980a090e80994c9869d8f10018c224716c459f86670ba48f1db61525df0",
+        "sha256_in_prefix": "8f202980a090e80994c9869d8f10018c224716c459f86670ba48f1db61525df0",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "site-packages/pylint_venv.py",
+        "path_type": "hardlink",
+        "sha256": "5c2677d7d702587380863dcb18e26651ee8395a9f7f7fae8cb7714ff8b430294",
+        "sha256_in_prefix": "5c2677d7d702587380863dcb18e26651ee8395a9f7f7fae8cb7714ff8b430294",
+        "size_in_bytes": 4316
+      },
+      {
+        "_path": "Lib/site-packages/__pycache__/pylint_venv.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "2959a5ef73ec2131dcde9c244ab5609bcb98296591fb576f52487f8cd729774c",
+  "size": 11176,
+  "subdir": "noarch",
+  "timestamp": 1698219496000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pylint-venv-3.0.3-pyhd8ed1ab_0.conda",
+  "version": "3.0.3"
+}

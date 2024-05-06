@@ -1,0 +1,121 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.9"
+  ],
+  "extracted_package_dir": "C:\\Users\\oisin\\anaconda3\\pkgs\\multimethod-1.11-pyhd8ed1ab_1",
+  "files": [
+    "Lib/site-packages/multimethod-1.11.dist-info/INSTALLER",
+    "Lib/site-packages/multimethod-1.11.dist-info/LICENSE.txt",
+    "Lib/site-packages/multimethod-1.11.dist-info/METADATA",
+    "Lib/site-packages/multimethod-1.11.dist-info/RECORD",
+    "Lib/site-packages/multimethod-1.11.dist-info/REQUESTED",
+    "Lib/site-packages/multimethod-1.11.dist-info/WHEEL",
+    "Lib/site-packages/multimethod-1.11.dist-info/direct_url.json",
+    "Lib/site-packages/multimethod-1.11.dist-info/top_level.txt",
+    "Lib/site-packages/multimethod/__init__.py",
+    "Lib/site-packages/multimethod/py.typed",
+    ".nonadmin",
+    "Lib/site-packages/multimethod/__pycache__/__init__.cpython-311.pyc"
+  ],
+  "fn": "multimethod-1.11-pyhd8ed1ab_1.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "C:\\Users\\oisin\\anaconda3\\pkgs\\multimethod-1.11-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "890110abc758851b79c809da1903bc9c",
+  "name": "multimethod",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\oisin\\anaconda3\\pkgs\\multimethod-1.11-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/multimethod-1.11.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/multimethod-1.11.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "50477e9b01163e9f1754d3318cc38059278cc6586316c4e627de3076691c8bea",
+        "sha256_in_prefix": "50477e9b01163e9f1754d3318cc38059278cc6586316c4e627de3076691c8bea",
+        "size_in_bytes": 576
+      },
+      {
+        "_path": "site-packages/multimethod-1.11.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "5936a4d486a95978dcf2e5b5446c567e6424903c3a021562b4419bdc45a987cd",
+        "sha256_in_prefix": "5936a4d486a95978dcf2e5b5446c567e6424903c3a021562b4419bdc45a987cd",
+        "size_in_bytes": 8743
+      },
+      {
+        "_path": "site-packages/multimethod-1.11.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "b851d7efebdc5a5c27a04a5545073e8becb8f3c866a5c5b8ff50896f9690daf4",
+        "sha256_in_prefix": "b851d7efebdc5a5c27a04a5545073e8becb8f3c866a5c5b8ff50896f9690daf4",
+        "size_in_bytes": 899
+      },
+      {
+        "_path": "site-packages/multimethod-1.11.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/multimethod-1.11.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "sha256_in_prefix": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/multimethod-1.11.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "8c5f37d4b922de6ec5f05046dd910dfc03248d24cce47ae78e5f56edc05e8564",
+        "sha256_in_prefix": "8c5f37d4b922de6ec5f05046dd910dfc03248d24cce47ae78e5f56edc05e8564",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "site-packages/multimethod-1.11.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "64621f7e2fc195d4d2c0a566f1eb728e3926dc7e3e68c9282af80853aa246ba2",
+        "sha256_in_prefix": "64621f7e2fc195d4d2c0a566f1eb728e3926dc7e3e68c9282af80853aa246ba2",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "site-packages/multimethod/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "cb5a1e9c05d12d8181289ff1c3c72899adeec4ded236fef073c5e2bb5a235f6a",
+        "sha256_in_prefix": "cb5a1e9c05d12d8181289ff1c3c72899adeec4ded236fef073c5e2bb5a235f6a",
+        "size_in_bytes": 18783
+      },
+      {
+        "_path": "site-packages/multimethod/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/multimethod/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b49bf81f9b677bf26a61feada409810f21e872d999e79dff6f4c6b7031f3d386",
+  "size": 15307,
+  "subdir": "noarch",
+  "timestamp": 1708027319000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/multimethod-1.11-pyhd8ed1ab_1.conda",
+  "version": "1.11"
+}

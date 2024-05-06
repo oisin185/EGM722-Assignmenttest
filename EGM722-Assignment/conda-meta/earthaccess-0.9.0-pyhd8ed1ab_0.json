@@ -1,0 +1,259 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "fsspec >=2022.11",
+    "multimethod >=1.8",
+    "pqdm >=0.1",
+    "python >=3.8,<4.0",
+    "python-cmr >=0.9.0",
+    "python-dateutil >=2.8.2",
+    "requests >=2.26",
+    "s3fs >=2022.11",
+    "tinynetrc >=1.3.1"
+  ],
+  "extracted_package_dir": "C:\\Users\\oisin\\anaconda3\\pkgs\\earthaccess-0.9.0-pyhd8ed1ab_0",
+  "files": [
+    "Lib/site-packages/earthaccess-0.9.0.dist-info/INSTALLER",
+    "Lib/site-packages/earthaccess-0.9.0.dist-info/LICENSE.txt",
+    "Lib/site-packages/earthaccess-0.9.0.dist-info/METADATA",
+    "Lib/site-packages/earthaccess-0.9.0.dist-info/RECORD",
+    "Lib/site-packages/earthaccess-0.9.0.dist-info/REQUESTED",
+    "Lib/site-packages/earthaccess-0.9.0.dist-info/WHEEL",
+    "Lib/site-packages/earthaccess-0.9.0.dist-info/direct_url.json",
+    "Lib/site-packages/earthaccess/__init__.py",
+    "Lib/site-packages/earthaccess/api.py",
+    "Lib/site-packages/earthaccess/auth.py",
+    "Lib/site-packages/earthaccess/css/iso_bootstrap4.0.0min.css",
+    "Lib/site-packages/earthaccess/css/styles.css",
+    "Lib/site-packages/earthaccess/daac.py",
+    "Lib/site-packages/earthaccess/formatters.py",
+    "Lib/site-packages/earthaccess/kerchunk.py",
+    "Lib/site-packages/earthaccess/results.py",
+    "Lib/site-packages/earthaccess/search.py",
+    "Lib/site-packages/earthaccess/store.py",
+    "Lib/site-packages/earthaccess/utils/_validation.py",
+    "Lib/site-packages/earthaccess/widgets.py",
+    ".nonadmin",
+    "Lib/site-packages/earthaccess/__pycache__/__init__.cpython-311.pyc",
+    "Lib/site-packages/earthaccess/__pycache__/api.cpython-311.pyc",
+    "Lib/site-packages/earthaccess/__pycache__/auth.cpython-311.pyc",
+    "Lib/site-packages/earthaccess/__pycache__/daac.cpython-311.pyc",
+    "Lib/site-packages/earthaccess/__pycache__/formatters.cpython-311.pyc",
+    "Lib/site-packages/earthaccess/__pycache__/kerchunk.cpython-311.pyc",
+    "Lib/site-packages/earthaccess/__pycache__/results.cpython-311.pyc",
+    "Lib/site-packages/earthaccess/__pycache__/search.cpython-311.pyc",
+    "Lib/site-packages/earthaccess/__pycache__/store.cpython-311.pyc",
+    "Lib/site-packages/earthaccess/utils/__pycache__/_validation.cpython-311.pyc",
+    "Lib/site-packages/earthaccess/__pycache__/widgets.cpython-311.pyc"
+  ],
+  "fn": "earthaccess-0.9.0-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\oisin\\anaconda3\\pkgs\\earthaccess-0.9.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "c781e56d8f032ce61c0ebfa7b23753dd",
+  "name": "earthaccess",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\oisin\\anaconda3\\pkgs\\earthaccess-0.9.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/earthaccess-0.9.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/earthaccess-0.9.0.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "de15875594a8c2b16321bc11ee005640e8df27e4d1d6836bc4ef5c451eca7062",
+        "sha256_in_prefix": "de15875594a8c2b16321bc11ee005640e8df27e4d1d6836bc4ef5c451eca7062",
+        "size_in_bytes": 1067
+      },
+      {
+        "_path": "site-packages/earthaccess-0.9.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "fbf2b14158b1d5f09308265e2a26ea2a4ff22168c0c62d72a8e7bd635967ec56",
+        "sha256_in_prefix": "fbf2b14158b1d5f09308265e2a26ea2a4ff22168c0c62d72a8e7bd635967ec56",
+        "size_in_bytes": 9803
+      },
+      {
+        "_path": "site-packages/earthaccess-0.9.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "0cde65d5b45e194a8313e0ba7b450e5c6e6ccd71ac0fcf7a3e065de9a714de2b",
+        "sha256_in_prefix": "0cde65d5b45e194a8313e0ba7b450e5c6e6ccd71ac0fcf7a3e065de9a714de2b",
+        "size_in_bytes": 2232
+      },
+      {
+        "_path": "site-packages/earthaccess-0.9.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/earthaccess-0.9.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "b0ff78e83ee31421de373e48ab87cbe0bbbe3eb5ab16c81f2d76db91c8886708",
+        "sha256_in_prefix": "b0ff78e83ee31421de373e48ab87cbe0bbbe3eb5ab16c81f2d76db91c8886708",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "site-packages/earthaccess-0.9.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "c2c98af747a4d7c991d4565f6b93a8df25719a3189c133d4306c1fc45e3ac2e8",
+        "sha256_in_prefix": "c2c98af747a4d7c991d4565f6b93a8df25719a3189c133d4306c1fc45e3ac2e8",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "site-packages/earthaccess/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "aef68031f4e1df78156aad256efe6b793489e7ea1d768f20bd7e57c8f0da1acc",
+        "sha256_in_prefix": "aef68031f4e1df78156aad256efe6b793489e7ea1d768f20bd7e57c8f0da1acc",
+        "size_in_bytes": 2302
+      },
+      {
+        "_path": "site-packages/earthaccess/api.py",
+        "path_type": "hardlink",
+        "sha256": "bf4e502cb21c0f74333e7b8dee7b8e83a5de43c402df10cbcc83fb1eff361087",
+        "sha256_in_prefix": "bf4e502cb21c0f74333e7b8dee7b8e83a5de43c402df10cbcc83fb1eff361087",
+        "size_in_bytes": 12473
+      },
+      {
+        "_path": "site-packages/earthaccess/auth.py",
+        "path_type": "hardlink",
+        "sha256": "ac8c1a9c052edff1b9da13a44e12ab7123047fc1be26bfc0b814d96dd81c8017",
+        "sha256_in_prefix": "ac8c1a9c052edff1b9da13a44e12ab7123047fc1be26bfc0b814d96dd81c8017",
+        "size_in_bytes": 14984
+      },
+      {
+        "_path": "site-packages/earthaccess/css/iso_bootstrap4.0.0min.css",
+        "path_type": "hardlink",
+        "sha256": "abeb7e22813157a27b8a4c33656aafade9dab44c80cf72a4af912244bc878bd4",
+        "sha256_in_prefix": "abeb7e22813157a27b8a4c33656aafade9dab44c80cf72a4af912244bc878bd4",
+        "size_in_bytes": 207752
+      },
+      {
+        "_path": "site-packages/earthaccess/css/styles.css",
+        "path_type": "hardlink",
+        "sha256": "0039cc463e7391468a24f1643dbdcf11e0a2a8150997d430b658b44990ed9459",
+        "sha256_in_prefix": "0039cc463e7391468a24f1643dbdcf11e0a2a8150997d430b658b44990ed9459",
+        "size_in_bytes": 199
+      },
+      {
+        "_path": "site-packages/earthaccess/daac.py",
+        "path_type": "hardlink",
+        "sha256": "474fa54889bb77c6650369d85728893987d3771cd5d612f826acb86b499c8bfd",
+        "sha256_in_prefix": "474fa54889bb77c6650369d85728893987d3771cd5d612f826acb86b499c8bfd",
+        "size_in_bytes": 5386
+      },
+      {
+        "_path": "site-packages/earthaccess/formatters.py",
+        "path_type": "hardlink",
+        "sha256": "ab04d531988d08f09f35f7227e78636f5b271b27ef5a06d3d431670b5f0fdf98",
+        "sha256_in_prefix": "ab04d531988d08f09f35f7227e78636f5b271b27ef5a06d3d431670b5f0fdf98",
+        "size_in_bytes": 1774
+      },
+      {
+        "_path": "site-packages/earthaccess/kerchunk.py",
+        "path_type": "hardlink",
+        "sha256": "f8e5fc6843d34596e45cdaa04dd39ecbedd4ababafa7c24429ebe7f2780fb555",
+        "sha256_in_prefix": "f8e5fc6843d34596e45cdaa04dd39ecbedd4ababafa7c24429ebe7f2780fb555",
+        "size_in_bytes": 1780
+      },
+      {
+        "_path": "site-packages/earthaccess/results.py",
+        "path_type": "hardlink",
+        "sha256": "1a4e7ae6b23c508346a25c0df2df5c2d1e47d2a1f5dfb766402f2270ba85e92a",
+        "sha256_in_prefix": "1a4e7ae6b23c508346a25c0df2df5c2d1e47d2a1f5dfb766402f2270ba85e92a",
+        "size_in_bytes": 10758
+      },
+      {
+        "_path": "site-packages/earthaccess/search.py",
+        "path_type": "hardlink",
+        "sha256": "be359cd68f3d2fa15c2702c50eda4c5e0319559d2c81d56375b826eda1d6d203",
+        "sha256_in_prefix": "be359cd68f3d2fa15c2702c50eda4c5e0319559d2c81d56375b826eda1d6d203",
+        "size_in_bytes": 29194
+      },
+      {
+        "_path": "site-packages/earthaccess/store.py",
+        "path_type": "hardlink",
+        "sha256": "0652c70a7b399c142034bdec52d774a8cb525946a38a2bcb93ca4d6757e3e31e",
+        "sha256_in_prefix": "0652c70a7b399c142034bdec52d774a8cb525946a38a2bcb93ca4d6757e3e31e",
+        "size_in_bytes": 25510
+      },
+      {
+        "_path": "site-packages/earthaccess/utils/_validation.py",
+        "path_type": "hardlink",
+        "sha256": "6198d1144f3bc2a13f3fdd1793b47adac2b6d501c4a4cda9fb2c9c46ce243c84",
+        "sha256_in_prefix": "6198d1144f3bc2a13f3fdd1793b47adac2b6d501c4a4cda9fb2c9c46ce243c84",
+        "size_in_bytes": 140
+      },
+      {
+        "_path": "site-packages/earthaccess/widgets.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/earthaccess/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/earthaccess/__pycache__/api.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/earthaccess/__pycache__/auth.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/earthaccess/__pycache__/daac.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/earthaccess/__pycache__/formatters.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/earthaccess/__pycache__/kerchunk.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/earthaccess/__pycache__/results.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/earthaccess/__pycache__/search.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/earthaccess/__pycache__/store.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/earthaccess/utils/__pycache__/_validation.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/earthaccess/__pycache__/widgets.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "earthaccess",
+  "sha256": "dd551e831cd6f2370653762370fb57e53ba9edd0eda53d8e8659be3aced19970",
+  "size": 53295,
+  "subdir": "noarch",
+  "timestamp": 1709221461000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/earthaccess-0.9.0-pyhd8ed1ab_0.conda",
+  "version": "0.9.0"
+}

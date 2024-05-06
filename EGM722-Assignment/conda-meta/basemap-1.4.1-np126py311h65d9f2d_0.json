@@ -1,0 +1,229 @@
+{
+  "build": "np126py311h65d9f2d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "basemap-data",
+    "geos >=3.12.1,<3.12.2.0a0",
+    "matplotlib-base >=1.5,<3.9",
+    "numpy >=1.26,<1.27.0a0",
+    "numpy >=1.26.4,<2.0a0",
+    "pyproj >=1.9.3,<3.7.0",
+    "pyshp >=1.2.0,<2.4.0",
+    "python >=3.11,<3.12.0a0",
+    "python_abi 3.11.* *_cp311",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "extracted_package_dir": "C:\\Users\\oisin\\anaconda3\\pkgs\\basemap-1.4.1-np126py311h65d9f2d_0",
+  "files": [
+    "Lib/site-packages/_geoslib.cp311-win_amd64.pyd",
+    "Lib/site-packages/basemap-1.4.1-py3.11-nspkg.pth",
+    "Lib/site-packages/basemap-1.4.1.dist-info/INSTALLER",
+    "Lib/site-packages/basemap-1.4.1.dist-info/LICENSE",
+    "Lib/site-packages/basemap-1.4.1.dist-info/LICENSE.geos",
+    "Lib/site-packages/basemap-1.4.1.dist-info/METADATA",
+    "Lib/site-packages/basemap-1.4.1.dist-info/RECORD",
+    "Lib/site-packages/basemap-1.4.1.dist-info/REQUESTED",
+    "Lib/site-packages/basemap-1.4.1.dist-info/WHEEL",
+    "Lib/site-packages/basemap-1.4.1.dist-info/direct_url.json",
+    "Lib/site-packages/basemap-1.4.1.dist-info/namespace_packages.txt",
+    "Lib/site-packages/basemap-1.4.1.dist-info/top_level.txt",
+    "Lib/site-packages/geos_c.dll",
+    "Lib/site-packages/mpl_toolkits/basemap/__init__.py",
+    "Lib/site-packages/mpl_toolkits/basemap/__pycache__/__init__.cpython-311.pyc",
+    "Lib/site-packages/mpl_toolkits/basemap/__pycache__/cm.cpython-311.pyc",
+    "Lib/site-packages/mpl_toolkits/basemap/__pycache__/diagnostic.cpython-311.pyc",
+    "Lib/site-packages/mpl_toolkits/basemap/__pycache__/proj.cpython-311.pyc",
+    "Lib/site-packages/mpl_toolkits/basemap/__pycache__/solar.cpython-311.pyc",
+    "Lib/site-packages/mpl_toolkits/basemap/cm.py",
+    "Lib/site-packages/mpl_toolkits/basemap/diagnostic.py",
+    "Lib/site-packages/mpl_toolkits/basemap/proj.py",
+    "Lib/site-packages/mpl_toolkits/basemap/solar.py",
+    ".nonadmin"
+  ],
+  "fn": "basemap-1.4.1-np126py311h65d9f2d_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\oisin\\anaconda3\\pkgs\\basemap-1.4.1-np126py311h65d9f2d_0",
+    "type": 1
+  },
+  "md5": "7fa9ef717148075c20e7bacf9e740971",
+  "name": "basemap",
+  "package_tarball_full_path": "C:\\Users\\oisin\\anaconda3\\pkgs\\basemap-1.4.1-np126py311h65d9f2d_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/_geoslib.cp311-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "13d83cc8f7231a033fe16d00b67d2f2869883c50f8d984a9b1a1941e1f5e6d91",
+        "sha256_in_prefix": "13d83cc8f7231a033fe16d00b67d2f2869883c50f8d984a9b1a1941e1f5e6d91",
+        "size_in_bytes": 78336
+      },
+      {
+        "_path": "Lib/site-packages/basemap-1.4.1-py3.11-nspkg.pth",
+        "path_type": "hardlink",
+        "sha256": "83da708657cb4118aca4009fafe65a6a1e0fb1c7b2872c7d2bfaaff76f48a4ca",
+        "sha256_in_prefix": "83da708657cb4118aca4009fafe65a6a1e0fb1c7b2872c7d2bfaaff76f48a4ca",
+        "size_in_bytes": 570
+      },
+      {
+        "_path": "Lib/site-packages/basemap-1.4.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/basemap-1.4.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "ecc2589b983c24326dfb731d5ec8c2404898ee5b33aa21e95dc90eb3d91c9f6b",
+        "sha256_in_prefix": "ecc2589b983c24326dfb731d5ec8c2404898ee5b33aa21e95dc90eb3d91c9f6b",
+        "size_in_bytes": 1121
+      },
+      {
+        "_path": "Lib/site-packages/basemap-1.4.1.dist-info/LICENSE.geos",
+        "path_type": "hardlink",
+        "sha256": "a1a33180d02960ab1c5de36cf20b1a2f0fe9888d83826ad263da5db52f1b183b",
+        "sha256_in_prefix": "a1a33180d02960ab1c5de36cf20b1a2f0fe9888d83826ad263da5db52f1b183b",
+        "size_in_bytes": 26529
+      },
+      {
+        "_path": "Lib/site-packages/basemap-1.4.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "0b8176d0107ae9fa174c267e9769ccbac07f78b00f88ba1c29119001a2c1648a",
+        "sha256_in_prefix": "0b8176d0107ae9fa174c267e9769ccbac07f78b00f88ba1c29119001a2c1648a",
+        "size_in_bytes": 9253
+      },
+      {
+        "_path": "Lib/site-packages/basemap-1.4.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "c58ae83208a54528ab895067d50baec160bd52e959b0d626e962e7ad84e9d5b1",
+        "sha256_in_prefix": "c58ae83208a54528ab895067d50baec160bd52e959b0d626e962e7ad84e9d5b1",
+        "size_in_bytes": 1841
+      },
+      {
+        "_path": "Lib/site-packages/basemap-1.4.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/basemap-1.4.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "8ab723b1f8736e5aa04b33bca30efed295caf9156a0ea351190f05eb9d0050d3",
+        "sha256_in_prefix": "8ab723b1f8736e5aa04b33bca30efed295caf9156a0ea351190f05eb9d0050d3",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "Lib/site-packages/basemap-1.4.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "3b8cad05a96a25e66f2b55f9cf6a98abb4604d72c81e22a9e9400df6b3bd3cfe",
+        "sha256_in_prefix": "3b8cad05a96a25e66f2b55f9cf6a98abb4604d72c81e22a9e9400df6b3bd3cfe",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "Lib/site-packages/basemap-1.4.1.dist-info/namespace_packages.txt",
+        "path_type": "hardlink",
+        "sha256": "0363c7160f4d298394e29110d61f7b53441dfab07eeb95b7e17a82fb9e9937d8",
+        "sha256_in_prefix": "0363c7160f4d298394e29110d61f7b53441dfab07eeb95b7e17a82fb9e9937d8",
+        "size_in_bytes": 13
+      },
+      {
+        "_path": "Lib/site-packages/basemap-1.4.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "6632fb5a20a69521dc27f4a36164737a31e632ba498110d0472dc4b746eeeba6",
+        "sha256_in_prefix": "6632fb5a20a69521dc27f4a36164737a31e632ba498110d0472dc4b746eeeba6",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "Lib/site-packages/geos_c.dll",
+        "path_type": "hardlink",
+        "sha256": "57fe408273189108d1ef43896493ffbf0d048726675c84bb6f3d13a4ca0b82aa",
+        "sha256_in_prefix": "57fe408273189108d1ef43896493ffbf0d048726675c84bb6f3d13a4ca0b82aa",
+        "size_in_bytes": 405504
+      },
+      {
+        "_path": "Lib/site-packages/mpl_toolkits/basemap/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e297ce30c17dde8306f1f9247268acf9c47c95c05272ce9c404b0679926cac5c",
+        "sha256_in_prefix": "e297ce30c17dde8306f1f9247268acf9c47c95c05272ce9c404b0679926cac5c",
+        "size_in_bytes": 256518
+      },
+      {
+        "_path": "Lib/site-packages/mpl_toolkits/basemap/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "b33694108b2e8fbf53eb58e2ca07068422054d8e8d58fe860c933e8b000b2dc6",
+        "sha256_in_prefix": "b33694108b2e8fbf53eb58e2ca07068422054d8e8d58fe860c933e8b000b2dc6",
+        "size_in_bytes": 265737
+      },
+      {
+        "_path": "Lib/site-packages/mpl_toolkits/basemap/__pycache__/cm.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "d9e531e5efe91242af8ba76172b6d0b051f32c2d0534781969dccccfdb626dbd",
+        "sha256_in_prefix": "d9e531e5efe91242af8ba76172b6d0b051f32c2d0534781969dccccfdb626dbd",
+        "size_in_bytes": 19323
+      },
+      {
+        "_path": "Lib/site-packages/mpl_toolkits/basemap/__pycache__/diagnostic.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "b5a79a021d7445c2b2e19a8134dcca39160cb22831fdfc236ce03e932ca6c803",
+        "sha256_in_prefix": "b5a79a021d7445c2b2e19a8134dcca39160cb22831fdfc236ce03e932ca6c803",
+        "size_in_bytes": 3969
+      },
+      {
+        "_path": "Lib/site-packages/mpl_toolkits/basemap/__pycache__/proj.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "32fe71dbc3de91454c5d2f14830a978f56b5990a2d07b1d085a724f0ba8cf0d3",
+        "sha256_in_prefix": "32fe71dbc3de91454c5d2f14830a978f56b5990a2d07b1d085a724f0ba8cf0d3",
+        "size_in_bytes": 16040
+      },
+      {
+        "_path": "Lib/site-packages/mpl_toolkits/basemap/__pycache__/solar.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "055b26afc1d577687232221ff3e1a1a546d7bb7f69d9d14b3d02ba6bc9313a2b",
+        "sha256_in_prefix": "055b26afc1d577687232221ff3e1a1a546d7bb7f69d9d14b3d02ba6bc9313a2b",
+        "size_in_bytes": 8057
+      },
+      {
+        "_path": "Lib/site-packages/mpl_toolkits/basemap/cm.py",
+        "path_type": "hardlink",
+        "sha256": "a70d7bcd155fa26fd8fa23ebf6c8c9db3cd9a475620dc16fd981d1a1b25a5799",
+        "sha256_in_prefix": "a70d7bcd155fa26fd8fa23ebf6c8c9db3cd9a475620dc16fd981d1a1b25a5799",
+        "size_in_bytes": 47867
+      },
+      {
+        "_path": "Lib/site-packages/mpl_toolkits/basemap/diagnostic.py",
+        "path_type": "hardlink",
+        "sha256": "82fe3c3e8c83beb083693a20044a6ec1aa3898570d52f21cffd0d3de737ab931",
+        "sha256_in_prefix": "82fe3c3e8c83beb083693a20044a6ec1aa3898570d52f21cffd0d3de737ab931",
+        "size_in_bytes": 3744
+      },
+      {
+        "_path": "Lib/site-packages/mpl_toolkits/basemap/proj.py",
+        "path_type": "hardlink",
+        "sha256": "ea33bfa3adb2dee8258a628dc4f099ad8b670bce45bdab332b636e132a7d7ffb",
+        "sha256_in_prefix": "ea33bfa3adb2dee8258a628dc4f099ad8b670bce45bdab332b636e132a7d7ffb",
+        "size_in_bytes": 16949
+      },
+      {
+        "_path": "Lib/site-packages/mpl_toolkits/basemap/solar.py",
+        "path_type": "hardlink",
+        "sha256": "5e3ace99b8874606984db2e6366328576f9f7d04362ccfa7070772f7a6d5c560",
+        "sha256_in_prefix": "5e3ace99b8874606984db2e6366328576f9f7d04362ccfa7070772f7a6d5c560",
+        "size_in_bytes": 6788
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "basemap",
+  "sha256": "c83a9cfe38a859da937015023dc5feece92381e3fa1b45e92643e75245cc7bff",
+  "size": 298786,
+  "subdir": "win-64",
+  "timestamp": 1708019669000,
+  "url": "https://conda.anaconda.org/conda-forge/win-64/basemap-1.4.1-np126py311h65d9f2d_0.conda",
+  "version": "1.4.1"
+}
