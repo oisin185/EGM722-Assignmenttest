@@ -33,5 +33,17 @@ axes.add_feature(belfast_dea_outline) # Adding the map boundary line
 xmin, ymin, xmax, ymax = dea.total_bounds # Displaying the boundaries of the Belfast LGD shapefile
 axes.set_extent([xmin-500, xmax+500, ymin-500, ymax+500], crs=belfast_utm) # Scaling the map to be 500m from the map boundary and setting the CRS
 
+dea_colors = ['r', 'b', 'g', 'c', 'm', 'blueviolet', 'chocolate', 'limegreen', 'orange', 'orchid', 'maroon']
+dea_names = list(dea.DEA.unique())
+dea_names.sort()
+
+for ii, name in enumerate(dea_names): # The code block that allows the program to iterate over until the DEA boundaries are colourised - this is required as there are more than 1 polygon within this shapefile.
+    dea_colourise = ShapelyFeature(dea.loc[dea['DEA'] == name, 'geometry'],
+                          ccrs.CRS(dea.crs), # Defining the CRS so the script knows where to add the colour to
+                          edgecolor='k',# Defining the visual properties of the DEA wards
+                          facecolor=dea_colors[ii],
+                          linewidth=1.5,
+                          alpha=0.6) # Transparency of the colour (In reality this determines how vivid the colour will be)
+    axes.add_feature(dea_colourise) # Adding the function to the map
 
 plt.show() # Used this command throughout the editing phase of creating the script to ensure I could see if the data was loading correctly
