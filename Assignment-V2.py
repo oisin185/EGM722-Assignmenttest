@@ -6,7 +6,8 @@ from PIL._imaging import outline
 from cartopy import crs as ccrs
 from cartopy.feature import ShapelyFeature
 import cartopy.feature as cfeature
-from matplotlib_scalebar.scalebar import ScaleBar
+import matplotlib.patches as mpatches
+import matplotlib.lines as mlines
 
 # Load shapefiles needed for the script
 belfast_DEA_shapefile = 'C:/Users/oisin/Documents/GitHub/EGM722-Assignmenttest/BelfastDEA/Belfast_DEA.shp' # Replaced the LGD boundary with the smaller DEA boundary for greater detail
@@ -43,11 +44,36 @@ for loop, name in enumerate(dea_names): # The code block that allows the program
                           edgecolor='k',# Defining the visual properties of the DEA wards
                           facecolor=dea_colors[loop],
                           linewidth=1.5,
-                          alpha=0.25) # Transparency of the colour (In reality this determines how vivid the colour will be)
+                          alpha=1) # Transparency of the colour (In reality this determines how vivid the colour will be)
     ax.add_feature(dea_feature, zorder=2) # Adding the function to the map
 
+# Adding the other datasets to the map and defining their appearance
 belfast_busstops.plot(ax=ax, color='navy', marker='s', markersize=2, zorder=4) # Used '.plot()' to add the bus stop, roads and rail platforms to the map with various visual appearances for each dataset
 belfast_roads.plot(ax=ax, color='dimgrey', linewidth=1, zorder=3)
 belfast_rail.plot(ax=ax, color='coral', marker='s', markersize=5, zorder=5) # Added a 'zorder' ranking system to the datasets to ensure they were all visable on the map
+def generate_handles(labels, colors, edge='k', alpha=1): # Generating handles for the legend
+    lc = len(colors)
+    handles = []
+    for loop in range(len(labels)): # Creating loop which will iterate over the DEA wards and assign them a place on the legend
+            handles.append(mpatches.Rectangle((0, 0), 1, 1, facecolor=colors[loop % lc], edgecolor=edge, alpha=alpha))
+    return handles
+
+dea_handles = generate_handles(dea.DEA.unique(), dea_colors, alpha=1) # Defining the handles which the 'ax.legend()' function will use to add the handles to the legend
+busstops_handle = generate_handles(['Bus Stops'], ['navy'])
+roads_handles = [mlines.Line2D([], [], color='dimgrey')]
+rail_handles = generate_handles(['Rail Platforms'], ['coral'])
+
+names = []
+for name in dea_names:
+    names.append(name.title())
+
+# Creating the legned and defining the appearance of it.
+handles = dea_handles + busstops_handle + roads_handles + rail_handles
+labels = names + ['Bus Stops', 'Roads', 'Rail Platforms']
+leg = ax.legend(handles, labels, title='Legend', title_fontsize=12, fontsize=10, loc='upper left', frameon = True, framealpha = 1)
+
+fig.suptitle("Belfast's DEA boundaries, Roads, Bus stops and Rail Platforms", fontsize = 16, fontweight = 'bold') # This adds a title to the map and defines how the lettering will appear
+
+
 
 plt.show() # Used this command throughout the editing phase of creating the script to ensure I could see if the data was loading correctly
