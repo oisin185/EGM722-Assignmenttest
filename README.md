@@ -8,7 +8,7 @@ The main dependencies for this script are as follows:
 
 
 Overview of the Datasets:
-Datasets are included in the repository. Here is an overview of the datasets and where they were sourced from.
+Datasets are included in the repository.
 - Dataset:		/ 				Data Type:			/		Source:
 - Belfast_DEA	/ 				Shapefile Vector 	/		Ordnance Survey Northern Ireland (OSNI)
 - BelfastBusstops_V2	/		Shapefile Vector	/		ArcGIS Hub (Private Member)
