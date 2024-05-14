@@ -9,11 +9,11 @@ The main dependencies for this script are as follows:
 
 Overview of the Datasets:
 Datasets are included in the repository. Here is an overview of the datasets and where they were sourced from.
-- Dataset:						Data Type:					Source:
-- Belfast_DEA					Shapefile Vector 			Ordnance Survey Northern Ireland (OSNI)
-- BelfastBusstops_V2			Shapefile Vector			ArcGIS Hub (Private Member)
-- Belfast_Roads					Shapefile Vector			Northern Ireland Statistics and Research Agency (NISRA)
-- Belfast_RailPlatforms			Shapefile Vector			Data.gov.uk (Accurate as of 2017)
+- Dataset:		/ 				Data Type:			/		Source:
+- Belfast_DEA	/ 				Shapefile Vector 	/		Ordnance Survey Northern Ireland (OSNI)
+- BelfastBusstops_V2	/		Shapefile Vector	/		ArcGIS Hub (Private Member)
+- Belfast_Roads			/		Shapefile Vector	/		Northern Ireland Statistics and Research Agency (NISRA)
+- Belfast_RailPlatforms	/		Shapefile Vector	/		Data.gov.uk (Accurate as of 2017)
 
 
 Setup: Anaconda.
