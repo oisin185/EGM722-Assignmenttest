@@ -2,10 +2,10 @@
 import os
 import geopandas as gpd
 import matplotlib.pyplot as plt
-from cartopy import crs as ccrs
-from cartopy.feature import ShapelyFeature
 import matplotlib.patches as mpatches
 import matplotlib.lines as mlines
+from cartopy import crs as ccrs
+from cartopy.feature import ShapelyFeature
 
 
 # Load shapefiles needed for the script
@@ -36,9 +36,10 @@ ax.set_extent([xmin-1500, xmax+500, ymin-500, ymax+500], crs=belfast_utm) # Scal
 
 dea_colors = ['gold', 'royalblue', 'g', 'c', 'm', 'blueviolet', 'chocolate', 'limegreen', 'orange', 'orchid', 'maroon'] # Defining what colours the DEA wards will have
 dea_names = list(dea.DEA.unique())
-dea_names.sort() # Sorting by alphabetical order
+dea_names.sort() # Sorting by alphabetical order - This will be the order in which the wards are colourised by.
 
-# The code block that allows the program to iterate over until the DEA boundaries are colourised -
+# The code block that retrieves the rows in the dea dataset
+# and uses those to iterate over until the DEA boundaries are colourised -
 # this is required as there are more than 1 polygon within this shapefile.
 for loop, name in enumerate(dea_names):
     dea_feature = ShapelyFeature(dea.loc[dea['DEA'] == name, 'geometry'],
@@ -49,13 +50,15 @@ for loop, name in enumerate(dea_names):
                           alpha=0.5) # Transparency of the colour
     ax.add_feature(dea_feature, zorder=2) # Adding the function to the map
 
+
 # Adding the other datasets to the map and defining their appearance
-belfast_busstops.plot(ax=ax, color='navy', marker='s', markersize=2, zorder=4) # Used '.plot()' to add the bus stop, roads and rail platforms to the map with various visual appearances for each dataset
+# Used '.plot()' to add the bus stop, roads and rail platforms to the map with various visual appearances for each dataset
+belfast_busstops.plot(ax=ax, color='navy', marker='s', markersize=2, zorder=4)
 belfast_roads.plot(ax=ax, color='dimgrey', linewidth=1.5, zorder=3)
 belfast_rail.plot(ax=ax, color='r', marker='s', markersize=5, zorder=5) # Added a 'zorder' ranking system to the datasets to ensure they were all visable on the map
 
 # Generating handles for the legend
-def generate_handles(labels, colors, edge='k', alpha=1):
+def generate_handles(labels, colors, edge='k', alpha=1): # Function 'generate_handles' used to create the handles for the legend
     lc = len(colors)
     handles = []
     for loop in range(len(labels)): # Creating loop which will iterate over the DEA wards and assign them a place on the legend
@@ -65,21 +68,23 @@ def generate_handles(labels, colors, edge='k', alpha=1):
 # Defining the handles which the 'ax.legend()' function will use to add the handles to the legend
 dea_handles = generate_handles(dea.DEA.unique(), dea_colors, alpha=1)
 busstops_handle = generate_handles(['Bus Stops'], ['navy'])
-roads_handles = [mlines.Line2D([], [], color='dimgrey')]
+roads_handles = [mlines.Line2D([], [], color='dimgrey')] # Different code here from the above and below lines as it is a Line geometry instead of Point
 rail_handles = generate_handles(['Rail Platforms'], ['r'])
 
-names = []
+names = [] # Empty string for the Handles to occupy
 for name in dea_names:
     names.append(name.title())
 
 # Creating the legend and defining the appearance of it.
 handles = dea_handles + roads_handles  + busstops_handle + rail_handles
-labels = names + ['Bus Stops', 'Roads', 'Rail Platforms']
-leg = ax.legend(handles, labels, title='Legend', title_fontsize=12, fontsize=10, loc='upper left', frameon = True, framealpha = 1)
+labels = names + ['Bus Stops', 'Roads', 'Rail Platforms'] # Importing the dataset names into the legend
+leg = ax.legend(handles, labels, title='Legend', title_fontsize=12, fontsize=10, loc='upper left', frameon = True, framealpha = 1) # Defining the appearance of the legend
 
-fig.suptitle("Belfast's DEA boundaries, Roads, Bus Stops and Rail Platforms", fontsize = 16, fontweight = 'bold') # This adds a title to the map and defines how the lettering will appear
+fig.suptitle("Belfast's DEA Boundaries, Roads, Bus Stops and Rail Platforms", fontsize = 16, fontweight = 'bold') # This adds a title to the map and defines how the lettering will appear
 
+# Inserting a scale bar into the map which measures 1000m
 def scale_bar(ax, location=(0.92, 0.1), length=1000, units='m', text_offset=400):
+# Defining the location of the scalebar, the length of the scalebar, the '1000m' text description so that it appears below the scalebar
 
     x0, x1 = ax.get_xlim()  # Get the x-axis limits
     y0, y1 = ax.get_ylim()  # Get the y-axis limits
@@ -98,6 +103,11 @@ def scale_bar(ax, location=(0.92, 0.1), length=1000, units='m', text_offset=400)
 
 ax = scale_bar(ax) # Call the scale bar string
 
-ax.gridlines(draw_labels=True, linewidth=0.5) # Add gridlines to the map
+ax.gridlines(draw_labels=True, linewidth=0.5) # Add gridlines to the map and defining the appearance
 
 plt.show() # Used this command throughout the editing phase of creating the script to ensure I could see if the data was loading correctly
+
+
+# This should display a map of the Belfast DEA boundaires colourised with the above colours, the road network, the bus stops and the rail platforms within these boundaires.
+# Should also display a legend with the colour to the DEA boundaires, a title with the text 'Belfast's DEA Boundaries, Roads, Bus Stops and Rail Platforms',
+# a scale bar measuring 1000m, and graticules.

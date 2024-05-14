@@ -2,9 +2,9 @@ name: EGM722-Assignment
 Channels:
 	- conda-forge
 	- defaults
-dependencies:
+Dependencies:
+	- python=3.11
 	- geopandas
 	- matplotlib
 	- cartopy
-	- cartopy.feature
-	- matplotlib_scalebar.scalebar
+	- OS
